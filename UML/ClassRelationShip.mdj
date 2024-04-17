@@ -63,7 +63,7 @@
 											"top": 135,
 											"width": 218.14697265625,
 											"height": 13,
-											"text": "Vehicle"
+											"text": "Student"
 										},
 										{
 											"_type": "LabelView",
@@ -908,9 +908,9 @@
 											"font": "Arial;13;1",
 											"left": 733,
 											"top": 399,
-											"width": 167.91162109375,
+											"width": 168.654296875,
 											"height": 13,
-											"text": "VehiclePools"
+											"text": "StudentManager"
 										},
 										{
 											"_type": "LabelView",
@@ -943,7 +943,7 @@
 									"font": "Arial;13;0",
 									"left": 728,
 									"top": 392,
-									"width": 177.91162109375,
+									"width": 178.654296875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGO4GIdHNBDRSg="
@@ -980,16 +980,16 @@
 											"font": "Arial;13;0",
 											"left": 733,
 											"top": 422,
-											"width": 167.91162109375,
+											"width": 168.654296875,
 											"height": 13,
-											"text": "-vehicles: ArrayList<Vehicle>",
+											"text": "-Student: ArrayList<Student>",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 728,
 									"top": 417,
-									"width": 177.91162109375,
+									"width": 178.654296875,
 									"height": 23
 								},
 								{
@@ -1004,7 +1004,7 @@
 									"font": "Arial;13;0",
 									"left": 728,
 									"top": 440,
-									"width": 177.91162109375,
+									"width": 178.654296875,
 									"height": 10
 								},
 								{
@@ -1044,7 +1044,7 @@
 							"containerChangeable": true,
 							"left": 728,
 							"top": 392,
-							"width": 176.91162109375,
+							"width": 177.654296875,
 							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGO4GIdHNBCXlM="
@@ -1453,7 +1453,7 @@
 											"top": 198,
 											"width": 195.01611328125,
 											"height": 13,
-											"text": "-availableVehicle: Vehicle",
+											"text": "-availableVehicle: Student",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1487,7 +1487,7 @@
 											"top": 221,
 											"width": 195.01611328125,
 											"height": 13,
-											"text": "+rentVehicle(v: Vehicle): void",
+											"text": "+rentVehicle(v: Student): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1957,7 +1957,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Vehicle",
+					"name": "Student",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -2185,7 +2185,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "VehiclePools",
+					"name": "StudentManager",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -2225,9 +2225,9 @@
 							"_parent": {
 								"$ref": "AAAAAAGO4GIdG9A/gEo="
 							},
-							"name": "vehicles",
+							"name": "Student",
 							"visibility": "private",
-							"type": "ArrayList<Vehicle>"
+							"type": "ArrayList<Student>"
 						}
 					]
 				},
